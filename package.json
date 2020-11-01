@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "@apollo/client": "^3.0.2",
+    "@mdx-js/loader": "^1.6.19",
+    "@next/mdx": "^10.0.0",
     "apollo-server-micro": "^2.14.2",
     "graphql": "^14.0.2",
     "next": "latest",
@@ -15,5 +17,10 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.9.6"
+  }
 }
